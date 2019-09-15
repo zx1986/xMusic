@@ -1,10 +1,12 @@
-## Example
+## Usage
 
 ```
-youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <url to playlist>
+make init
+make download
 ```
 
 ## References
 
-https://askubuntu.com/questions/564567/how-to-download-playlist-from-youtube-dl   
-https://shapeshed.com/unix-xargs/   
+* https://askubuntu.com/questions/564567/how-to-download-playlist-from-youtube-dl   
+* https://github.com/tldr-pages/tldr/blob/master/pages/common/youtube-dl.md
+* https://shapeshed.com/unix-xargs/   
